@@ -1,16 +1,23 @@
-## Hi there 👋
+### 你好，我是 Sherlock
 
-<!--
-**SherlockT94/SherlockT94** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+独立开发者。做自己需要的东西，然后把它做完。
 
-Here are some ideas to get you started:
+过去大半年在做一件很小的事：**给自己家写了一个记账系统，然后它真的跑起来了。**
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+现在它每天在记录我们家的每一笔钱。因为是被自己的需求逼出来的，所以它解决的不是「记一笔账」，而是两个人一起记账时那些没人愿意提的麻烦。
+
+#### 当前项目
+
+**[Family Ledger](https://github.com/SherlockT94/family-ledger)** — 可自托管的家庭记账系统
+
+- 微信 / 支付宝账单批量导入，**双侧账单自动合并去重**（同一笔消费不会被记两次）
+- 亲情卡、副卡消费识别，避免「我这边记了、他那边也记了」
+- 夫妻 AA 自动抵消，月底不用掰手指算
+- 差旅支出按笔挂靠报销，报销回款单独归集
+- 100+ 条分类规则，导进来就是分好类的
+
+一条 `docker compose up` 起在自己机器上，账本数据不出门。
+
+📮 交流 / 反馈：<!-- 留你的邮箱，或小红书 / 公众号名字 -->
+
+<sub>这个主页大概率因为一个 bug 才被你打开 —— 如果是，欢迎去项目仓库提 issue。</sub>
